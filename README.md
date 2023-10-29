@@ -43,7 +43,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![image](<web ex 2.png>)
+![image]("C:\Users\Mugil\OneDrive\Documents\Pictures\web ex 2.png")
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully

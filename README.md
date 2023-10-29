@@ -43,7 +43,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![Alt text](<web ex 2.png>)
+![image](<web ex 2.png>)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully

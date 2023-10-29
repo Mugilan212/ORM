@@ -43,7 +43,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![image]("<web ex 2.png>")
+![web ex 2](https://github.com/Mugilan212/ORM/assets/144508901/8350eb5c-98db-4644-850b-17180367bb31)
+
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully

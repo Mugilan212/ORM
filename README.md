@@ -24,27 +24,27 @@ Execute Django admin and create 10 Football players
 Admin.py
 
 from django.contrib import admin
-from .models import Employee,EmployeeAdmin
-admin.site.register(Employee,EmployeeAdmin)
+from .models import Player,PlayerAdmin
+admin.site.register(Player,PlayerAdmin)
 
 Models.py
 
 from django.db import models
 from django.contrib import admin
-class Employee (models.Model):
-    eid=models.CharField(max_length=20,help_text="Employee ID")
-    name=models.CharField(max_length=100)
-    salary=models.IntegerField()
-    age=models.IntegerField()
-    email=models.EmailField()
+class Player(models.Model):
+    Player_Name=models.CharField(max_length=50)
+    Jersy_No=models.IntegerField()
+    Team=models.CharField(max_length=20)
+    Height=models.IntegerField()
+    Position=models.CharField(max_length=100)
 
-class EmployeeAdmin(admin.ModelAdmin):
-    list_display=('eid','name','salary','age','email')
+class PlayerAdmin(admin.ModelAdmin):
+    list_display=('Player_Name','Jersy_No','Team','Height','Position')
 ```
 
 ## OUTPUT
-![web ex 2](https://github.com/Mugilan212/ORM/assets/144508901/8350eb5c-98db-4644-850b-17180367bb31)
+![web ext 2](https://github.com/Mugilan212/ORM/assets/144508901/c5f1ef31-e580-4022-89c7-207093e51ff6)
 
 
 ## RESULT
-Thus the program for creating a database using ORM hass been executed successfully
+Thus the program for creating a database using ORM has been executed successfully
